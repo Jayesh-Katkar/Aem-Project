@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-dev-bootcamp" mode="merge"/>
+    <filter root="/content/aem-dev-bootcamp" mode="merge"/>
+    <filter root="/content/dam/aem-dev-bootcamp" mode="merge">
+        <exclude pattern="/content/dam/aem-dev-bootcamp(/.*)?"/>
+        <include pattern="/content/dam/aem-dev-bootcamp/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-dev-bootcamp/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-dev-bootcamp" mode="merge"/>
+</workspaceFilter>

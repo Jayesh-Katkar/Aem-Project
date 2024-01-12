@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aem-dev-bootcamp",
+        "create path (nt:unstructured) /content/dam/aem-dev-bootcamp/jcr:content",
+        "set properties on /content/dam/aem-dev-bootcamp/jcr:content\n  set cq:conf{String} to /conf/aem-dev-bootcamp\n  set jcr:title{String} to \"AEM Dev Bootcamp Site\"\nend"
+    ]
+}

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: AEM Dev Bootcamp Site - All
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.aembootcamp:aem-dev-bootcamp.all:1.0.0-SNAPSHOT
+Content-Package-Description: All content package for AEM Dev Bootcamp Si
+ te
+Content-Package-Roots: /apps/aem-dev-bootcamp-packages,/apps/aem-dev-boo
+ tcamp-vendor-packages
+
